@@ -86,9 +86,10 @@ main p {
 article > h1 {
   font-family: var(--font-android);
   color: var(--cor4);
-  font-size: 2em;
+  font-size: 1.6em;
   font-weight: normal;
   text-indent: 10px;
+  text-align: left;
 }
 h2 {
   font-family: var(--font-android);
@@ -130,6 +131,14 @@ footer {
   text-align: center;
   font-size: 0.8em;
   padding: 5px;
+}
+footer a {
+  color: var(--cor0);
+  text-decoration: underline;
+}
+footer a:hover {
+  background-color: var(--cor1);
+  color: var(--cor4);
 }
 img {
   width: 100%;
