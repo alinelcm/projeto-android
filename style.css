@@ -1,4 +1,4 @@
-@charset "UTF-8"
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 @font-face {
   font-family: "idroid";
@@ -33,13 +33,13 @@ header {
 }
 header > h1 {
   font-family: var(--font-hightlight);
-  font-size: 3em;
+  font-size: 2.8em;
   font-weight: normal;
 }
 header > p {
   max-width: 500px;
   margin: auto;
-  font-size: 1.2em;
+  font-size: 1.1em;
   margin-top: 10px;
   margin-bottom: 10px;
   color: var(--cor0);
